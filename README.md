@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```Max Fetisov``` ```:author_username``` ```http://arsum.com``` ```max.fetisov@arsum.com``` ```arsumcom``` ```socialite-square-up``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
+**Note:** Replace ```Max Fetisov``` ```kovalski``` ```http://arsum.com``` ```max.fetisov@arsum.com``` ```arsumcom``` ```socialite-square-up``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
 PSRs you support to avoid any confusion with users and contributors.
@@ -65,5 +65,5 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-scrutinizer]: https://scrutinizer-ci.com/g/arsumcom/socialite-square-up/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/arsumcom/socialite-square-up
 [link-downloads]: https://packagist.org/packages/arsumcom/socialite-square-up
-[link-author]: https://github.com/:author_username
+[link-author]: https://github.com/kovalski
 [link-contributors]: ../../contributors
