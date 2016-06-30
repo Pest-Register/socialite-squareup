@@ -7,11 +7,6 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```Max Fetisov``` ```kovalski``` ```http://arsum.com``` ```max.fetisov@arsum.com``` ```arsumcom``` ```socialite-square-up``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
-
 ## Install
 
 Via Composer
@@ -20,25 +15,29 @@ Via Composer
 $ composer require arsumcom/socialite-square-up
 ```
 
-## Usage
+## Configuration
 
-``` php
+After installing the SocialiteStripe library, register the `ArsumCom\SocialiteStripe\SocialiteSquareUpServiceProvider` in your `config/app.php` configuration file:
 
+```php
+'providers' => [
+    // Other service providers...
+
+    ArsumCom\SocialiteStripe\SocialiteSquareUpServiceProvider::class,
+],
 ```
 
-## Change log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
-## Testing
-
-``` bash
-$ composer test
+You will also need to add credentials for the OAuth services your application utilizes. These credentials should be placed in your `config/services.php` configuration file, and should use the key `squareup`. For example:
+```php
+'squareup' => [
+    'client_id' => env('SQUAREUP_CLIENT_ID', 'your-squareup-app-id'),
+    'client_secret' => env('SQUAREUP_CLIENT_SECRET', 'your-squareup-app-secret'),
+    'redirect' => env('SQUAREUP_REDIRECT', 'http://your-callback-url'),
+],
 ```
+## Basic Usage
 
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
+https://github.com/laravel/socialite#basic-usage
 
 ## Security
 

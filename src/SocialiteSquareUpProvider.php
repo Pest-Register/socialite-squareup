@@ -106,12 +106,8 @@ class SocialiteSquareUpProvider extends AbstractProvider implements ProviderInte
   {
     return (new User)->setRaw($user)->map([
       'id' => array_get($user, 'id'),
-      'provider' => 'squareup',
       'name' => array_get($user, 'name'),
       'email' => array_get($user, 'email'),
-      'country_code' => array_get($user, 'country_code'),
-      'language_code' => array_get($user, 'language_code'),
-      'currency_code' => array_get($user, 'currency_code')
     ]);
   }
 }
