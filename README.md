@@ -1,4 +1,4 @@
-# socialite-square-up
+# Square signup and login implementation for socialite - https://github.com/laravel/socialite
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -46,7 +46,7 @@ If you discover any security related issues, please email max.fetisov@arsum.com 
 ## Credits
 
 - [Max Fetisov][link-author]
-- [All Contributors][link-contributors]
+- [Arsum][http://arsum.com]
 
 ## License
 
@@ -65,4 +65,3 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-code-quality]: https://scrutinizer-ci.com/g/arsumcom/socialite-square-up
 [link-downloads]: https://packagist.org/packages/arsumcom/socialite-square-up
 [link-author]: https://github.com/kovalski
-[link-contributors]: ../../contributors
