@@ -46,7 +46,7 @@ If you discover any security related issues, please email max.fetisov@arsum.com 
 ## Credits
 
 - [Max Fetisov][link-author]
-- [Arsum][http://arsum.com]
+- [Arsum][link-arsum]
 
 ## License
 
@@ -65,3 +65,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-code-quality]: https://scrutinizer-ci.com/g/arsumcom/socialite-square-up
 [link-downloads]: https://packagist.org/packages/arsumcom/socialite-square-up
 [link-author]: https://github.com/kovalski
+[link-arsum]: http://arsum.com
